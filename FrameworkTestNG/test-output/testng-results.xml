@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="115196" started-at="2019-06-25T05:08:30Z" finished-at="2019-06-25T05:10:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="115196" started-at="2019-06-25T05:08:30Z" finished-at="2019-06-25T05:10:25Z">
+      <class name="TestSript.NewTest">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:TestSript.NewTest@3c5a99da]" name="Launch" is-config="true" duration-ms="33832" started-at="2019-06-25T10:38:30Z" finished-at="2019-06-25T10:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="SearchTest()[pri:0, instance:TestSript.NewTest@3c5a99da]" name="SearchTest" duration-ms="50297" started-at="2019-06-25T10:39:04Z" finished-at="2019-06-25T10:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestSript.NewTest@3c5a99da]" name="afterMethod" is-config="true" duration-ms="1075" started-at="2019-06-25T10:39:54Z" finished-at="2019-06-25T10:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Launch()[pri:0, instance:TestSript.NewTest@3c5a99da]" name="Launch" is-config="true" duration-ms="21658" started-at="2019-06-25T10:39:55Z" finished-at="2019-06-25T10:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="addEmp()[pri:0, instance:TestSript.NewTest@3c5a99da]" name="addEmp" duration-ms="7294" started-at="2019-06-25T10:40:17Z" finished-at="2019-06-25T10:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestSript.NewTest@3c5a99da]" name="afterMethod" is-config="true" duration-ms="888" started-at="2019-06-25T10:40:24Z" finished-at="2019-06-25T10:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestSript.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

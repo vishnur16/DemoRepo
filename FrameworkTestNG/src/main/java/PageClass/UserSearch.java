@@ -7,12 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-import Constants.Constantpage;
 
-public class UserSearch extends Constantpage {
+
+public class UserSearch {
 	
 	Actions ac;
-	WebDriver driver;
+	WebDriver driver=null;
 	public UserSearch(WebDriver driver)
 	{
 		this.driver=driver;
@@ -34,8 +34,8 @@ WebElement Search;
 	{
 		try
 		{
-		//driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
-		Thread.sleep(3000);
+			System.out.println("I am inside");
+		driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
 		ac =new Actions(driver);
 		ac.moveToElement(admin).click().build().perform();
 		ac.moveToElement(userMang).click().build().perform();
